@@ -67,8 +67,8 @@
 		>
 			<div class="flex items-center justify-between border-b py-4">
 				<a href="/" class="mx-auto flex items-center gap-2 pr-4">
-					<img class="h-8 w-8" src="/favicon.png" alt="Hollama logo" />
-					<span class="text-lg font-semibold tracking-tight">Hollama</span>
+					<img class="h-8 w-8" src="/favicon.png" alt="CCN-chat logo" />
+					<span class="text-lg font-semibold tracking-tight">CCN-chat</span>
 				</a>
 			</div>
 
@@ -187,7 +187,7 @@
 				</a>
 
 				<a
-					href="https://github.com/fmaclen/hollama"
+					href="https://github.com/ccn-chat/ccn-chat"
 					target="_blank"
 					rel="noopener noreferrer"
 					class="duration-25 flex items-center gap-3 px-4 py-3 text-sm font-medium text-muted transition-colors hover:text-active"

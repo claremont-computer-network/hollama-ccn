@@ -15,7 +15,7 @@
 	let { session = $bindable(), editor = $bindable(), handleRetry }: Props = $props();
 
 	const contextUsage = $derived(
-		calculateContextUsage(session.messages, session.options.num_ctx || 2048)
+		calculateContextUsage(session.messages, session.options.num_ctx || 2048, 100)
 	);
 
 	function handleEditMessage(message: Message) {

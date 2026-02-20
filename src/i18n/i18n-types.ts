@@ -697,6 +697,10 @@ type RootTranslation = {
 	 * C​o​l​l​a​p​s​e​ ​s​i​d​e​b​a​r
 	 */
 	collapseSidebar: string
+	/**
+	 * C​o​n​t​e​x​t
+	 */
+	context: string
 }
 
 export type TranslationFunctions = {
@@ -1373,6 +1377,10 @@ The completion in progress will stop
 	 * Collapse sidebar
 	 */
 	collapseSidebar: () => LocalizedString
+	/**
+	 * Context
+	 */
+	context: () => LocalizedString
 }
 
 export type Formatters = {}
